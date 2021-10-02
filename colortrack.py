@@ -37,5 +37,5 @@ while(1):
 		 
 	cv2.imshow('Bounding box', with_contours)
 	cv2.waitKey(0)
-	cv2.destroyAllWindows()
-	cap.release()
+cap.release()
+cv2.destroyAllWindows()
